@@ -1,5 +1,6 @@
 const stars = document.querySelectorAll('.star');
 const ratingInput = document.getElementById('rating');
+const ratingText = document.getElementById('rating-text');
 
 stars.forEach((star, index) => {
   star.addEventListener('mouseover', () => {
@@ -21,8 +22,7 @@ stars.forEach((star, index) => {
     });
     const rating = index + 1;
     ratingInput.value = rating; 
-    ratingText.textContent = `Hai selezionato ${rating} stelle`;
-    console.log(`Valutazione selezionata: ${rating}`);
+    ratingText.textContent = `you have selected ${rating} stars`;
 
   });
   star.addEventListener('mouseout', () => {
