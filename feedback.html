@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="Assets/Images/icon.jpg">
+    <link rel="stylesheet" href="Assets/Css/style.css">
+</head>
+
+<body>
+
+    <header id="logo">
+
+        <img src="Assets/Images/epicode_logo.png" alt="Logo Epicode" />
+
+    </header>
+
+    <main id="feedback">
+
+        <h1 id="feedbackTitle">Tell us how it's going</h1>
+
+        <p>From 0 to 10, how likely are you to recommend EPICODE to a friend or a colleague ?</p>
+
+        <div id="stars">
+            <img src="Assets/Images/star.svg" data-value="1" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="2" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="3" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="4" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="5" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="6" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="7" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="8" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="9" alt="Star" class="star">
+            <img src="Assets/Images/star.svg" data-value="10" alt="Star" class="star">
+            <input type="hidden" id="rating" name="rating" value="0">
+        </div>
+
+        <p>Leave us an open feedback about your experience so far</p>
+
+        <input type="text" placeholder="Write your comment here..."> <br>
+
+        <button type="button">MORE INFO</button>
+
+    </main>
+    <script src="Assets/Js/feedback.js"></script>
+</body>
+
+</html>
