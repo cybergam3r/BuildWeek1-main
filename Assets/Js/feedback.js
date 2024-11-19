@@ -19,6 +19,10 @@ stars.forEach((star, index) => {
         s.classList.remove('selected');
       }
     });
+    const rating = index + 1;
+    ratingInput.value = rating; 
+    ratingText.textContent = `Hai selezionato ${rating} stelle`;
+    console.log(`Valutazione selezionata: ${rating}`);
 
   });
   star.addEventListener('mouseout', () => {
